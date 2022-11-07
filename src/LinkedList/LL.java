@@ -13,7 +13,8 @@ public class LL {
         Node node = new Node(val);
         node.next = head;
         head = node;
-        if (tail == null) tail = head;
+        if (tail == null)
+            tail = head;
         size++;
     }
 
