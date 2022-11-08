@@ -1,4 +1,5 @@
-package LinkedList;
+package LinkedList.single;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +14,8 @@ public class Main {
         list.insertLast(77);
         list.insertMiddle(44, 3);
         list.display();
-          System.out.println("Deleted "+list.delteFirst());
-        System.out.println("Deleted "+list.deleteLast());
+        System.out.println("Deleted " + list.delteFirst());
+        System.out.println("Deleted " + list.deleteLast());
         System.out.println("Deleted " + list.delete(4));
         list.display();
     }
